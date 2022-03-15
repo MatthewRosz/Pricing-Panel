@@ -53,7 +53,7 @@ html {
 }
 
 body {
-    background-color: #60a9ff;
+    background-color: #f72585;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,4 +66,32 @@ body {
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.option {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.option:last-child {
+    border-bottom: none;
+}
+
+.img {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.header {
+    color: #3a0ca3;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.option-features {
+    margin: 50px 0 25px;
+    color: #4361ee;
 }
