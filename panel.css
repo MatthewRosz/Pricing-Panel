@@ -46,3 +46,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+}
